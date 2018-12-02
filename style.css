@@ -1,0 +1,104 @@
+html, body {
+	background: #555;
+	font-family: "Fira Sans";
+	font-size: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+#calculator {
+	background: #9BAAAD;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 10rem;
+	left: 36rem;
+	width: 26rem;
+	height: 32rem;
+	border-radius: 0.2rem;
+	/*box-shadow: 0 2rem #7E8E91;*/
+	box-shadow: 0.5rem 0.5rem #444;
+}
+
+#head, #body {
+	flex: 1;
+}
+
+#head {
+	display: flex;
+	flex-direction: column;
+}
+
+#headTop {
+	flex: 1;
+	display: flex;
+}
+
+#casio {
+	flex: 0.5;
+	/*text-align: center;*/
+	padding-left: 2rem;
+	line-height: 3.7rem;
+	font-size: 1.5em;
+}
+
+#solar {
+	flex: 1;
+	padding: 0.2rem;
+}
+
+#solarPanel {
+	background: black;
+	width: 187px;
+	height: 50px;
+	position: relative;
+	margin-left: 4.5rem;
+	top: 0.5rem;
+	display: flex;
+}
+
+.solarBox {
+	background: #862323;
+	flex: 1;
+	margin: 1px;
+	display: block;
+}
+
+#headBot {
+	flex:2;
+	background: #7E8E91;
+	border-radius: .2rem;
+}
+
+#display {
+	background: #267626;
+	width: 90%;
+	height: 80%;
+	position: relative;
+	top: .7rem;
+	left: 1.4rem;
+}
+
+#body {
+	padding: 1.5rem 0rem 2rem;
+	text-align: center;
+}
+
+.key {
+	background: #2D7092;
+	color: white;
+	display: inline-block;
+	/*padding: 0.5rem 2rem;*/
+	text-align: center;
+	width: 4rem;
+	padding: 0.5rem 0;
+	border-radius: 0.2rem;
+	margin: 0.5rem 0.5rem;
+	box-shadow: 0 0.5rem #1B5775;
+}
+
+.fkey {
+	background: #993838;
+	box-shadow: 0 0.3rem #7B2626;
+	color: white;
+}
